@@ -1,0 +1,64 @@
+/* Banner.css */
+
+.banner-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-title {
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+  
+  .banner-text {
+    color: #007bff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .banner-copyright {
+    color: #28a745;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .banner-cover {
+    width: auto;
+    height: 400px;
+    margin: auto;
+  }
+  
+  .banner-picture {
+    width: 100%; /* Make the image responsive by setting width to 100% */
+    height: auto;
+    max-width: 300px; /* Set a max-width if you want to limit the width */
+    max-height: 300px; /* Set a max-height if you want to limit the height */
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .banner-title {
+      font-size: 60px; /* Adjust font size for smaller screens */
+    }
+  
+    .banner-text,
+    .banner-copyright {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    .banner-cover {
+      height: 300px; /* Adjust cover height for smaller screens */
+    }
+  
+    .banner-picture {
+      max-width: 100%; /* Adjust max-width for smaller screens */
+      max-height: 200px; /* Adjust max-height for smaller screens */
+    }
+  }
+  
